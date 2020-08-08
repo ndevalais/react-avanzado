@@ -123,6 +123,22 @@ En esta clase utilizaremos styled-components el cual es una biblioteca para CSS-
 https://react-icons.github.io/react-icons/icons?name=di
 
 # GENRADOR DE LOGO
+En esta clase usaremos maketext.io para crear nuestro logo y descargarlo en SVG. Posteriormente a esto utilizaremos SVGOMG para optimizar nuestro logo y tener una mejor versión para usarla en nuestro proyecto.
+
+Luego para convertir nuestro logo svg en un componente utilizaremos SVGR.
 
 https://maketext.io/
+
+https://jakearchibald.github.io/svgomg/
+
+https://react-svgr.com/playground/
+
+# ¿Qué son los Hooks?
+
+En esta clase, el profesor Miguel Ángel Durán García nos explicará qué son los Hooks en React, cómo usar useEffect y useState y cómo estos Hooks nos permitirán mejorar el performance de nuestra aplicación.
+
+React es una biblioteca de JavaScript para construir interfaces de usuario. Es declarativo, basado en componentes y puedes escribir una vez y usarlo donde sea.
+
+Aprende más en el Curso Avanzado de React disponible con tu suscripción. Adquiérela hoy.
+
 
