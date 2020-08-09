@@ -57,6 +57,24 @@ nos va a servir de Linter para una mejor escritura de JavaScript/React.
 Agregaremos un nuevo script en nuestro package.json: ""lint"": ""standard"".
 Ahora vamos a ignorar aquellos archivos que no queremos que el Linter arregle, añadiremos en nuestro package.json lo siguiente:
 
+### DEPLOY VERCEL
+Instalar vercel a traves del comando npm i -g vercel
+Despues de instalar vercel deben hacer vercel login y verificar su correo electronico, para que la instancia de versel local este conectada con el remoto y de esta forma evitar los tokens.
+Luego si realizar los pasos que dice el profe, pero con la difencia que el comando no es now, es vercel
+
+desde el directorio de api 
+
+$ vercel <-- Envia deploy 
+$ vercel --prod <-- envia a produccion 
+
+Configuracion
+https://vercel.com/ndevalais/petgram
+
+Dominio
+https://petgram.ndevalais.vercel.app/
+
+APIS
+https://petgram-server-ndevalais.vercel.app/categories
 
 
 ### Clase 7 ¿Qué es CSS-in-JS?
@@ -141,4 +159,22 @@ React es una biblioteca de JavaScript para construir interfaces de usuario. Es d
 
 Aprende más en el Curso Avanzado de React disponible con tu suscripción. Adquiérela hoy.
 
+CICLO DE VIDA !!!
 
+https://midu.dev/react-hooks-use-effect-funcionalidad-en-el-ciclo-vida-componentes/
+
+https://loading.io/
+
+## Uso de polyfill de Intersection Observer e imports dinámicos
+
+En esta clase añadiremos soporte a navegadores viejos con un polyfill de Intersection Observer.
+
+https://github.com/w3c/IntersectionObserver/tree/master/polyfill
+https://caniuse.com/#search=intersection%20observer
+
+npm install intersection-observer
+
+npm i @babel/plugin-syntax-dynamic-import -D
+npm install babel-eslint --save-dev
+
+CLASE 21
