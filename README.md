@@ -211,3 +211,12 @@ ReactDOM.render(
         document.getElementById('app')
 )
 
+# Calse 26
+
+https://reach.tech/router/
+
+¿Qué es Reach Router? Creando la ruta Home
+Reach Router es una versión simplificada y mejor optimizada de React Router, su creador es Ryan Florence el mismo creador de React Router. Se anunció que los dos paquetes se iban a unir, pero su API se va a parecer más a Reach Router.
+
+En este módulo te vamos a enseñar como usar este increíble paquete para manejar las rutas en nuestra aplicación.
+
