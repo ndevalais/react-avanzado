@@ -220,3 +220,14 @@ Reach Router es una versión simplificada y mejor optimizada de React Router, su
 
 En este módulo te vamos a enseñar como usar este increíble paquete para manejar las rutas en nuestra aplicación.
 
+# Clase 32 
+
+Introducción a React.Context
+Context API es una característica que tiene React para poder pasar datos en nuestra aplicación sin necesidad de usar las Props.
+
+Para crear un contexto vamos a importar el método createContext de la librería React. El contexto que creemos no va a dejar de ser un componente de React, por ello debe llevar mayúscula al inicio.
+
+El Context que creemos nos va a proporcionar 2 componentes:
+
+Provider: componente que debe envolver a nuestra aplicación.
+Consumer: nos va a permitir acceder a las render props que declaremos en el Provider.
